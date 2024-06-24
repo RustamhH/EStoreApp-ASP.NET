@@ -18,6 +18,7 @@ public class ProductController : ControllerBase
     }
 
     [HttpPost("[action]")]
+    [Authorize(Roles = "SuperAdmin,Admin")]
     public async Task<IActionResult> AddProduct([FromBody] AddProductVM productVM)
     {
         if (!ModelState.IsValid)
@@ -60,6 +61,7 @@ public class ProductController : ControllerBase
     }
 
     [HttpPut("[action]")]
+    [Authorize(Roles = "SuperAdmin,Admin")]
     public async Task<IActionResult> UpdateProduct(int id, [FromBody] UpdateProductVM updateProductVM)
     {
         try
@@ -68,7 +70,6 @@ public class ProductController : ControllerBase
             {
                 return BadRequest(new { Message = "Mismatch between route id and body id." });
             }
-
             var response = await _productService.UpdateProductAsync(updateProductVM);
             if (response == HttpStatusCode.NoContent)
             {
@@ -91,6 +92,7 @@ public class ProductController : ControllerBase
     }
 
     [HttpDelete("[action]/{id}")]
+    [Authorize(Roles = "SuperAdmin,Admin")]
     public async Task<IActionResult> DeleteProduct(int id)
     {
         var response = await _productService.DeleteProductAsync(id);

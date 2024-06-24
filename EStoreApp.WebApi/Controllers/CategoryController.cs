@@ -21,6 +21,7 @@ public class CategoryController : ControllerBase
     }
 
     [HttpPost("[action]")]
+    [Authorize(Roles ="SuperAdmin,Admin")]
     public async Task<IActionResult> AddCategory([FromBody] AddCategoryVM categoryVM)
     {
         if (!ModelState.IsValid)
@@ -51,6 +52,7 @@ public class CategoryController : ControllerBase
     }
 
     [HttpPut("[action]")]
+    [Authorize(Roles = "SuperAdmin,Admin")]
     public async Task<IActionResult> UpdateCategory(int id, [FromBody] UpdateCategoryVM updateCategoryVM)
     {
         try
@@ -82,6 +84,7 @@ public class CategoryController : ControllerBase
     }
 
     [HttpDelete("[action]/{id}")]
+    [Authorize(Roles = "SuperAdmin,Admin")]
     public async Task<IActionResult> DeleteCategory(int id)
     {
         var response = await _categoryService.DeleteCategoryAsync(id);

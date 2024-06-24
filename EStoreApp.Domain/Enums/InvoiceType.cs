@@ -8,7 +8,7 @@ namespace EStoreApp.Domain.Enums
 {
     public enum InvoiceType
     {
-        Sell,
-        Refund
+        Sell=1,
+        Refund=2,
     }
 }
