@@ -7,9 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Repositories\Common\" />
-    <Folder Include="Repositories\Concretes\" />
-    <Folder Include="Services\" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EStoreApp.Domain\EStoreApp.Domain.csproj" />
   </ItemGroup>
 
 </Project>

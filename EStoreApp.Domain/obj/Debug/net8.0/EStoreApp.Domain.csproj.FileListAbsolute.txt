@@ -1,0 +1,14 @@
+C:\Disk-DATA\ASP.NET\EStoreApp\EStoreApp.Domain\bin\Debug\net8.0\EStoreApp.Domain.deps.json
+C:\Disk-DATA\ASP.NET\EStoreApp\EStoreApp.Domain\bin\Debug\net8.0\EStoreApp.Domain.dll
+C:\Disk-DATA\ASP.NET\EStoreApp\EStoreApp.Domain\bin\Debug\net8.0\EStoreApp.Domain.pdb
+C:\Disk-DATA\ASP.NET\EStoreApp\EStoreApp.Domain\obj\Debug\net8.0\EStoreApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Disk-DATA\ASP.NET\EStoreApp\EStoreApp.Domain\obj\Debug\net8.0\EStoreApp.Domain.AssemblyInfoInputs.cache
+C:\Disk-DATA\ASP.NET\EStoreApp\EStoreApp.Domain\obj\Debug\net8.0\EStoreApp.Domain.AssemblyInfo.cs
+C:\Disk-DATA\ASP.NET\EStoreApp\EStoreApp.Domain\obj\Debug\net8.0\EStoreApp.Domain.csproj.CoreCompileInputs.cache
+C:\Disk-DATA\ASP.NET\EStoreApp\EStoreApp.Domain\obj\Debug\net8.0\EStoreApp.Domain.sourcelink.json
+C:\Disk-DATA\ASP.NET\EStoreApp\EStoreApp.Domain\obj\Debug\net8.0\EStoreApp.Domain.dll
+C:\Disk-DATA\ASP.NET\EStoreApp\EStoreApp.Domain\obj\Debug\net8.0\refint\EStoreApp.Domain.dll
+C:\Disk-DATA\ASP.NET\EStoreApp\EStoreApp.Domain\obj\Debug\net8.0\EStoreApp.Domain.pdb
+C:\Disk-DATA\ASP.NET\EStoreApp\EStoreApp.Domain\obj\Debug\net8.0\ref\EStoreApp.Domain.dll
+C:\Disk-DATA\ASP.NET\EStoreApp\EStoreApp.Domain\bin\Debug\net8.0\EStoreApp.Domain.runtimeconfig.json
+C:\Disk-DATA\ASP.NET\EStoreApp\EStoreApp.Domain\obj\Debug\net8.0\EStoreApp.Domain.genruntimeconfig.cache

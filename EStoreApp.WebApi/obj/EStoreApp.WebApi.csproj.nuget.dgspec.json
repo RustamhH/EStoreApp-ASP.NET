@@ -4,14 +4,86 @@
     "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.WebApi\\EStoreApp.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.WebApi\\EStoreApp.WebApi.csproj": {
+    "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Application\\EStoreApp.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.WebApi\\EStoreApp.WebApi.csproj",
-        "projectName": "EStoreApp.WebApi",
-        "projectPath": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.WebApi\\EStoreApp.WebApi.csproj",
+        "projectUniqueName": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Application\\EStoreApp.Application.csproj",
+        "projectName": "EStoreApp.Application",
+        "projectPath": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Application\\EStoreApp.Application.csproj",
         "packagesPath": "C:\\Users\\RustamHasanli\\.nuget\\packages\\",
-        "outputPath": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.WebApi\\obj\\",
+        "outputPath": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RustamHasanli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Domain\\EStoreApp.Domain.csproj": {
+                "projectPath": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Domain\\EStoreApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Domain\\EStoreApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Domain\\EStoreApp.Domain.csproj",
+        "projectName": "EStoreApp.Domain",
+        "projectPath": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Domain\\EStoreApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\RustamHasanli\\.nuget\\packages\\",
+        "outputPath": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\RustamHasanli\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,7 +117,266 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Infrastructure\\EStoreApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Infrastructure\\EStoreApp.Infrastructure.csproj",
+        "projectName": "EStoreApp.Infrastructure",
+        "projectPath": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Infrastructure\\EStoreApp.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\RustamHasanli\\.nuget\\packages\\",
+        "outputPath": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RustamHasanli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Application\\EStoreApp.Application.csproj": {
+                "projectPath": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Application\\EStoreApp.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.35.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Persistence\\EStoreApp.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Persistence\\EStoreApp.Persistence.csproj",
+        "projectName": "EStoreApp.Persistence",
+        "projectPath": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Persistence\\EStoreApp.Persistence.csproj",
+        "packagesPath": "C:\\Users\\RustamHasanli\\.nuget\\packages\\",
+        "outputPath": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RustamHasanli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Application\\EStoreApp.Application.csproj": {
+                "projectPath": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Application\\EStoreApp.Application.csproj"
+              },
+              "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Domain\\EStoreApp.Domain.csproj": {
+                "projectPath": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Domain\\EStoreApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.WebApi\\EStoreApp.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.WebApi\\EStoreApp.WebApi.csproj",
+        "projectName": "EStoreApp.WebApi",
+        "projectPath": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.WebApi\\EStoreApp.WebApi.csproj",
+        "packagesPath": "C:\\Users\\RustamHasanli\\.nuget\\packages\\",
+        "outputPath": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RustamHasanli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Application\\EStoreApp.Application.csproj": {
+                "projectPath": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Application\\EStoreApp.Application.csproj"
+              },
+              "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Infrastructure\\EStoreApp.Infrastructure.csproj": {
+                "projectPath": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Infrastructure\\EStoreApp.Infrastructure.csproj"
+              },
+              "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Persistence\\EStoreApp.Persistence.csproj": {
+                "projectPath": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Persistence\\EStoreApp.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",

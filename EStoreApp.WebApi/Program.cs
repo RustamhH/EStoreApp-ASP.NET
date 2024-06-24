@@ -1,5 +1,6 @@
-
-namespace EStoreApp.WebApi
+using EStoreApp.Persistence;
+using EStoreApp.Infrastructure;
+namespace EStore.Presentation
 {
     public class Program
     {
@@ -8,11 +9,12 @@ namespace EStoreApp.WebApi
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
+            builder.Services.AddPersistanceServices(builder.Configuration);
+            builder.Services.AddInfrastructureServices();
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            builder.Services.AddApiServices(builder.Configuration);
+
 
             var app = builder.Build();
 
@@ -23,6 +25,9 @@ namespace EStoreApp.WebApi
                 app.UseSwaggerUI();
             }
 
+            app.UseHttpsRedirection();
+
+            app.UseAuthentication();
             app.UseAuthorization();
 
 
