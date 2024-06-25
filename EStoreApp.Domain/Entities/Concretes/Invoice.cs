@@ -10,7 +10,7 @@ namespace EStoreApp.Domain.Entities.Concretes
 {
     public class Invoice : BaseEntity
     {
-        public int Barcode { get; set; }
+        public long Barcode { get; set; }
         public InvoiceType InvoiceType { get; set; }
 
         public int CashierId { get; set; }

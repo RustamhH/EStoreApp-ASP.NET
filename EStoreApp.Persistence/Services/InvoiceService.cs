@@ -16,29 +16,53 @@ namespace EStoreApp.Persistence.Services
         {
             _invoiceRepository = invoiceRepository;
         }
-        public Task AddInvoiceAsync(AddInvoiceVM addInvoiceVM)
+        public async Task AddInvoiceAsync(AddInvoiceVM addInvoiceVM)
         {
-            throw new NotImplementedException();
+            Random random = new Random();
+            string barcodeString = "";
+            for (int i = 0; i < 12; i++)
+            {
+                barcodeString += random.Next(0, 10).ToString();
+            }
+            long barcode = long.Parse(barcodeString);
+
+
+
+            var invoice = new Invoice
+            {
+                Barcode=barcode,
+                CashierId=addInvoiceVM.CashierId,
+                CustomerId=addInvoiceVM.CustomerId,
+                InvoiceItems=addInvoiceVM.InvoiceItems,
+                InvoiceType=InvoiceType.Sell,
+            };
+            await _invoiceRepository.Add(invoice);
+            await _invoiceRepository.SaveChangesAsync();
         }
 
-        public Task CreateRefundInvoiceAsync(int invoiceId)
+        public async Task CreateRefundInvoiceAsync(int invoiceId)
         {
-            throw new NotImplementedException();
+            var invoice=await _invoiceRepository.GetByIdAsync(invoiceId);
+            invoice.InvoiceType = InvoiceType.Refund;
+            await _invoiceRepository.Update(invoice);
+            await _invoiceRepository.SaveChangesAsync();
         }
 
-        public Task<bool> DeleteInvoiceAsync(int id)
+        public async Task<bool> DeleteInvoiceAsync(int id)
         {
-            throw new NotImplementedException();
+            var result = await _invoiceRepository.Delete(id);
+            await _invoiceRepository.SaveChangesAsync();
+            return result;
         }
 
-        public Task<List<Invoice>> GetAllInvoices()
+        public async Task<List<Invoice>> GetAllInvoices()
         {
-            throw new NotImplementedException();
+            return (await _invoiceRepository.GetAllAsync()).ToList();
         }
 
-        public Task<Invoice> GetInvoiceById(int id)
+        public async Task<Invoice> GetInvoiceById(int id)
         {
-            throw new NotImplementedException();
+            return await _invoiceRepository.GetByIdAsync(id);
         }
     }
 }
