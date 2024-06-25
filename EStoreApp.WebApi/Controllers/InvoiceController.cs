@@ -4,6 +4,7 @@ using EStoreApp.Domain.ViewModels.Invoice;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
+using System.Security.Claims;
 
 namespace EStoreApp.WebApi.Controllers;
 
@@ -26,7 +27,7 @@ public class InvoiceController : ControllerBase
         {
             return BadRequest(ModelState);
         }
-        await _invoiceService.AddInoviceAsync(addinvoiceVM);
+        await _invoiceService.AddInvoiceAsync(addinvoiceVM);
         return Ok();
     }
 

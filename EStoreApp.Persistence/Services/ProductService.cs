@@ -65,6 +65,9 @@ namespace EStoreApp.Persistence.Services
                 return HttpStatusCode.NotFound;
 
             category.Name = updateProductVM.Name;
+            category.Description = updateProductVM.Description;
+            category.Price = updateProductVM.Price;
+            category.CategoryId = updateProductVM.CategoryId;
 
             await _productRepository.Update(category);
             await _productRepository.SaveChangesAsync();

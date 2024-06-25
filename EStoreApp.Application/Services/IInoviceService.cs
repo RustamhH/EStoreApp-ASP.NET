@@ -12,7 +12,7 @@ namespace EStoreApp.Application.Services
 {
     public interface IInvoiceService
     {
-        Task AddInoviceAsync(AddInvoiceVM addInvoiceRequestDTO);
+        Task AddInvoiceAsync(AddInvoiceVM addInvoiceRequestDTO);
         Task<List<Invoice>> GetAllInvoices();
         Task<Invoice> GetInvoiceById(int id);
         Task<bool> DeleteInvoiceAsync(int id);

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EStoreApp.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+027f95fb66b14343afa1a6144ab9e6442cd092de")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a1ac30aee7a4a53dbdb4f1462074605a87bec80")]
 [assembly: System.Reflection.AssemblyProductAttribute("EStoreApp.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EStoreApp.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

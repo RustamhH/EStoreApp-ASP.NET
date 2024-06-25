@@ -1,4 +1,5 @@
-﻿using EStoreApp.Domain.Enums;
+﻿using EStoreApp.Domain.Entities.Concretes;
+using EStoreApp.Domain.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,5 +14,6 @@ namespace EStoreApp.Domain.ViewModels.Invoice
         public string InvoiceType { get; set; }
         public int CashierId { get; set; }
         public int CustomerId { get; set; }
+        public ICollection<InvoiceItem> InvoiceItems { get; set; }
     }
 }

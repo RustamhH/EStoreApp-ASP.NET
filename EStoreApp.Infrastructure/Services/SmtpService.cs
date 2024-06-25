@@ -35,7 +35,7 @@ namespace EStoreApp.Infrastructure.Services
             SmtpClient smtp = new SmtpClient();
             smtp.Host = "smtp.gmail.com";
             smtp.Port = 25;
-            smtp.Credentials = new NetworkCredential("reeljett@gmail.com", "kyzrgjrzqyhxknua");
+            smtp.Credentials = new NetworkCredential("mya8min@gmail.com", "udjwpylvfjjmfayf");
             smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
             smtp.EnableSsl = true;
 

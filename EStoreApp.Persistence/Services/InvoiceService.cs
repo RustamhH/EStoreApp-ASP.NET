@@ -1,12 +1,22 @@
-﻿using EStoreApp.Application.Services;
+﻿using EStoreApp.Application.Repositories.Concretes;
+using EStoreApp.Application.Services;
 using EStoreApp.Domain.Entities.Concretes;
+using EStoreApp.Domain.Enums;
+using EStoreApp.Domain.ViewModels.Category;
 using EStoreApp.Domain.ViewModels.Invoice;
+using EStoreApp.Persistence.Repositories.Concretes;
 
 namespace EStoreApp.Persistence.Services
 {
     public class InvoiceService : IInvoiceService
     {
-        public Task AddInoviceAsync(AddInvoiceVM addInvoiceVM)
+        private readonly IInvoiceRepository _invoiceRepository;
+
+        public InvoiceService(IInvoiceRepository invoiceRepository)
+        {
+            _invoiceRepository = invoiceRepository;
+        }
+        public Task AddInvoiceAsync(AddInvoiceVM addInvoiceVM)
         {
             throw new NotImplementedException();
         }

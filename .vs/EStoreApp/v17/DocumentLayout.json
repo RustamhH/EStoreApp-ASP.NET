@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA8A5F34-AD1D-4950-8973-EAC3F0391760}|EStoreApp.Domain\\EStoreApp.Domain.csproj|c:\\disk-data\\asp.net\\estoreapp\\estoreapp.domain\\entities\\concretes\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA8A5F34-AD1D-4950-8973-EAC3F0391760}|EStoreApp.Domain\\EStoreApp.Domain.csproj|solutionrelative:estoreapp.domain\\entities\\concretes\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18D75507-C820-4279-A419-2A3185ED21D3}|EStoreApp.WebApi\\EStoreApp.WebApi.csproj|c:\\disk-data\\asp.net\\estoreapp\\estoreapp.webapi\\controllers\\superadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18D75507-C820-4279-A419-2A3185ED21D3}|EStoreApp.WebApi\\EStoreApp.WebApi.csproj|solutionrelative:estoreapp.webapi\\controllers\\superadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B06C678C-958B-43B5-9C5E-E6207BF1C902}|EStoreApp.Persistence\\EStoreApp.Persistence.csproj|c:\\disk-data\\asp.net\\estoreapp\\estoreapp.persistence\\services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B06C678C-958B-43B5-9C5E-E6207BF1C902}|EStoreApp.Persistence\\EStoreApp.Persistence.csproj|solutionrelative:estoreapp.persistence\\services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA8A5F34-AD1D-4950-8973-EAC3F0391760}|EStoreApp.Domain\\EStoreApp.Domain.csproj|c:\\disk-data\\asp.net\\estoreapp\\estoreapp.domain\\viewmodels\\user\\updateuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA8A5F34-AD1D-4950-8973-EAC3F0391760}|EStoreApp.Domain\\EStoreApp.Domain.csproj|solutionrelative:estoreapp.domain\\viewmodels\\user\\updateuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18D75507-C820-4279-A419-2A3185ED21D3}|EStoreApp.WebApi\\EStoreApp.WebApi.csproj|c:\\disk-data\\asp.net\\estoreapp\\estoreapp.webapi\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18D75507-C820-4279-A419-2A3185ED21D3}|EStoreApp.WebApi\\EStoreApp.WebApi.csproj|solutionrelative:estoreapp.webapi\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18D75507-C820-4279-A419-2A3185ED21D3}|EStoreApp.WebApi\\EStoreApp.WebApi.csproj|c:\\disk-data\\asp.net\\estoreapp\\estoreapp.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18D75507-C820-4279-A419-2A3185ED21D3}|EStoreApp.WebApi\\EStoreApp.WebApi.csproj|solutionrelative:estoreapp.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0498B3B-26F6-408B-9955-B3C89C0B9418}|EStoreApp.Application\\EStoreApp.Application.csproj|c:\\disk-data\\asp.net\\estoreapp\\estoreapp.application\\services\\iinoviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0498B3B-26F6-408B-9955-B3C89C0B9418}|EStoreApp.Application\\EStoreApp.Application.csproj|solutionrelative:estoreapp.application\\services\\iinoviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B06C678C-958B-43B5-9C5E-E6207BF1C902}|EStoreApp.Persistence\\EStoreApp.Persistence.csproj|c:\\disk-data\\asp.net\\estoreapp\\estoreapp.persistence\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B06C678C-958B-43B5-9C5E-E6207BF1C902}|EStoreApp.Persistence\\EStoreApp.Persistence.csproj|solutionrelative:estoreapp.persistence\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA8A5F34-AD1D-4950-8973-EAC3F0391760}|EStoreApp.Domain\\EStoreApp.Domain.csproj|c:\\disk-data\\asp.net\\estoreapp\\estoreapp.domain\\entities\\concretes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA8A5F34-AD1D-4950-8973-EAC3F0391760}|EStoreApp.Domain\\EStoreApp.Domain.csproj|solutionrelative:estoreapp.domain\\entities\\concretes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SuperAdminController.cs",
+              "DocumentMoniker": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.WebApi\\Controllers\\SuperAdminController.cs",
+              "RelativeDocumentMoniker": "EStoreApp.WebApi\\Controllers\\SuperAdminController.cs",
+              "ToolTip": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.WebApi\\Controllers\\SuperAdminController.cs",
+              "RelativeToolTip": "EStoreApp.WebApi\\Controllers\\SuperAdminController.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAIwBAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T13:40:06.563Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -46,54 +63,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InvoiceService.cs",
-              "DocumentMoniker": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Persistence\\Services\\InvoiceService.cs",
-              "RelativeDocumentMoniker": "EStoreApp.Persistence\\Services\\InvoiceService.cs",
-              "ToolTip": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Persistence\\Services\\InvoiceService.cs",
-              "RelativeToolTip": "EStoreApp.Persistence\\Services\\InvoiceService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T17:32:27.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Invoice.cs",
-              "DocumentMoniker": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Domain\\Entities\\Concretes\\Invoice.cs",
-              "RelativeDocumentMoniker": "EStoreApp.Domain\\Entities\\Concretes\\Invoice.cs",
-              "ToolTip": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Domain\\Entities\\Concretes\\Invoice.cs",
-              "RelativeToolTip": "EStoreApp.Domain\\Entities\\Concretes\\Invoice.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T15:46:25.817Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IInoviceService.cs",
-              "DocumentMoniker": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Application\\Services\\IInoviceService.cs",
-              "RelativeDocumentMoniker": "EStoreApp.Application\\Services\\IInoviceService.cs",
-              "ToolTip": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Application\\Services\\IInoviceService.cs",
-              "RelativeToolTip": "EStoreApp.Application\\Services\\IInoviceService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAA+AAAA",
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Persistence\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "EStoreApp.Persistence\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Persistence\\Services\\ProductService.cs",
+              "RelativeToolTip": "EStoreApp.Persistence\\Services\\ProductService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T15:40:39.461Z",
+              "WhenOpened": "2024-06-25T10:56:24.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateUserVM.cs",
+              "DocumentMoniker": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Domain\\ViewModels\\User\\UpdateUserVM.cs",
+              "RelativeDocumentMoniker": "EStoreApp.Domain\\ViewModels\\User\\UpdateUserVM.cs",
+              "ToolTip": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Domain\\ViewModels\\User\\UpdateUserVM.cs",
+              "RelativeToolTip": "EStoreApp.Domain\\ViewModels\\User\\UpdateUserVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:52:03.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Domain\\Entities\\Concretes\\User.cs",
+              "RelativeDocumentMoniker": "EStoreApp.Domain\\Entities\\Concretes\\User.cs",
+              "ToolTip": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.Domain\\Entities\\Concretes\\User.cs",
+              "RelativeToolTip": "EStoreApp.Domain\\Entities\\Concretes\\User.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:37:31.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "InvoiceController.cs",
-              "DocumentMoniker": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.WebApi\\Controllers\\InvoiceController.cs",
-              "RelativeDocumentMoniker": "EStoreApp.WebApi\\Controllers\\InvoiceController.cs",
-              "ToolTip": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.WebApi\\Controllers\\InvoiceController.cs",
-              "RelativeToolTip": "EStoreApp.WebApi\\Controllers\\InvoiceController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowEkAAAA2AAAA",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.WebApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "EStoreApp.WebApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Disk-DATA\\ASP.NET\\EStoreApp\\EStoreApp.WebApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "EStoreApp.WebApi\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAgwCoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T15:40:06.29Z",
+              "WhenOpened": "2024-06-24T21:03:08.061Z",
               "EditorCaption": ""
             }
           ]
